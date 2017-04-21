@@ -4,12 +4,19 @@
 
 <span style="color: #2196F3">**[GET]**</span> `https://app.wecarecorp.com.br/api/v1/users/:id`
 
+<br>
 **Parâmetros:**
 
 |Parâmetro|Descrição|
 |:--------|:--------|
 |id <span style="color: rgba(0, 0, 0, 0.54)">(inteiro, obrigatório)</span> |Identificador do colaborador|
 
+<br>
+**Cabeçalhos:**
+
+|Cabeçalho|Valor|
+|:--------|:--------|
+|Authorization|Basic Token-de-Autenticação <span style="color: rgba(0, 0, 0, 0.54)">(Autenticação a partir do par `api_key:secret`)</span>|
 ---
 
 **Resposta bem sucedida:** buscar por um colaborador que existe e é da sua empresa
