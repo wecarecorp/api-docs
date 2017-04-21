@@ -17,6 +17,7 @@
 |Cabeçalho|Valor|
 |:--------|:--------|
 |Authorization|Basic Token-de-Autenticação <span style="color: rgba(0, 0, 0, 0.54)">(Autenticação a partir do par `api_key:secret`)</span>|
+
 ---
 
 **Resposta bem sucedida:** buscar por um colaborador que existe e é da sua empresa
