@@ -57,6 +57,8 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="creditar-pontos.html" />
+    
     
     <link rel="prev" href="visualizar-colaboradores.html" />
     
@@ -140,6 +142,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.2.3" data-path="creditar-pontos.html">
+            
+                <a href="creditar-pontos.html">
+            
+                    
+                    Creditar pontos a um colaborador
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -193,7 +208,8 @@
                                 <h1 id="colaboradores">Colaboradores</h1>
 <h4 id="visualizar-um-&#xFA;nico-colaborador">Visualizar um &#xFA;nico colaborador</h4>
 <p><span style="color: #2196F3"><strong>[GET]</strong></span> <code>https://app.wecarecorp.com.br/api/v1/users/:id</code></p>
-<p><strong>Par&#xE2;metros:</strong></p>
+<p><br>
+<strong>Par&#xE2;metros:</strong></p>
 <table>
 <thead>
 <tr>
@@ -205,6 +221,22 @@
 <tr>
 <td style="text-align:left">id <span style="color: rgba(0, 0, 0, 0.54)">(inteiro, obrigat&#xF3;rio)</span></td>
 <td style="text-align:left">Identificador do colaborador</td>
+</tr>
+</tbody>
+</table>
+<p><br>
+<strong>Cabe&#xE7;alhos:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Cabe&#xE7;alho</th>
+<th style="text-align:left">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Authorization</td>
+<td style="text-align:left">Basic Token-de-Autentica&#xE7;&#xE3;o <span style="color: rgba(0, 0, 0, 0.54)">(Autentica&#xE7;&#xE3;o a partir do par <code>api_key:secret</code>)</span></td>
 </tr>
 </tbody>
 </table>
@@ -281,10 +313,14 @@ $.ajax(settings).done(<span class="hljs-function"><span class="hljs-keyword">fun
 
             
                 
-                <a href="visualizar-colaboradores.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Visualizar colaboradores">
+                <a href="visualizar-colaboradores.html" class="navigation navigation-prev " aria-label="Previous page: Visualizar colaboradores">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="creditar-pontos.html" class="navigation navigation-next " aria-label="Next page: Creditar pontos a um colaborador">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -293,7 +329,7 @@ $.ajax(settings).done(<span class="hljs-function"><span class="hljs-keyword">fun
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Visualizar colaborador","level":"1.2.2","depth":2,"previous":{"title":"Visualizar colaboradores","level":"1.2.1","depth":2,"path":"colaboradores/visualizar-colaboradores.md","ref":"colaboradores/visualizar-colaboradores.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"colaboradores/visualizar-colaborador.md","mtime":"2017-04-20T21:20:07.599Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-04-20T21:21:25.751Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Visualizar colaborador","level":"1.2.2","depth":2,"next":{"title":"Creditar pontos a um colaborador","level":"1.2.3","depth":2,"path":"colaboradores/creditar-pontos.md","ref":"colaboradores/creditar-pontos.md","articles":[]},"previous":{"title":"Visualizar colaboradores","level":"1.2.1","depth":2,"path":"colaboradores/visualizar-colaboradores.md","ref":"colaboradores/visualizar-colaboradores.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"colaboradores/visualizar-colaborador.md","mtime":"2017-04-21T12:38:32.313Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-04-21T12:39:09.447Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
