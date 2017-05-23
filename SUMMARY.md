@@ -1,4 +1,4 @@
-# Summary
+# Menu
 
 * [Autenticação](README.md)
 * Colaboradores
@@ -6,4 +6,9 @@
   * [Visualizar colaborador](colaboradores/visualizar-colaborador.md)
   * [Creditar pontos a um colaborador](colaboradores/creditar-pontos.md)
   * [Visualizar extrato do colaborador](colaboradores/visualizar-extrato.md)
-
+* Empresas
+  * [Visualizar extrato da empresa](empresas/visualizar-extrato.md)
+* Recompensas
+  * [Visualizar recompensas](recompensas/visualizar-recompensas.md)
+  * [Visualizar recompensa](recompensas/visualizar-recompensa.md)
+  * [Solicitar recompensa](recompensas/solicitar-recompensa.md)
