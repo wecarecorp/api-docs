@@ -116,7 +116,33 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" data-path="visualizar-colaboradores.html">
+        <li class="chapter " data-level="1.2.1" data-path="criar-colaborador.html">
+            
+                <a href="criar-colaborador.html">
+            
+                    
+                    Criar colaborador
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="atualizar-senha.html">
+            
+                <a href="atualizar-senha.html">
+            
+                    
+                    Atualizar senha
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="visualizar-colaboradores.html">
             
                 <a href="visualizar-colaboradores.html">
             
@@ -129,7 +155,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2.2" data-path="visualizar-colaborador.html">
+        <li class="chapter active" data-level="1.2.4" data-path="visualizar-colaborador.html">
             
                 <a href="visualizar-colaborador.html">
             
@@ -142,7 +168,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="creditar-pontos.html">
+        <li class="chapter " data-level="1.2.5" data-path="creditar-pontos.html">
             
                 <a href="creditar-pontos.html">
             
@@ -155,7 +181,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.4" data-path="visualizar-extrato.html">
+        <li class="chapter " data-level="1.2.6" data-path="visualizar-extrato.html">
             
                 <a href="visualizar-extrato.html">
             
@@ -322,8 +348,8 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">id <span style="color: rgba(0, 0, 0, 0.54)">(inteiro, obrigat&#xF3;rio)</span></td>
-<td style="text-align:left">Identificador do colaborador</td>
+<td style="text-align:left">id <span style="color: rgba(0, 0, 0, 0.54)">(string, obrigat&#xF3;rio)</span></td>
+<td style="text-align:left">Identificador do colaborador, email, login alternativo</td>
 </tr>
 </tbody>
 </table>
@@ -361,7 +387,7 @@
 <p><strong>C&#xF3;digo:</strong> 404 Not Found</p>
 <p><strong>Conte&#xFA;do:</strong></p>
 <pre><code class="lang-json">{
-  <span class="hljs-string">&quot;erro&quot;</span>: <span class="hljs-string">&quot;N&#xE3;o existe colaborador com este id&quot;</span>
+  <span class="hljs-string">&quot;erro&quot;</span>: <span class="hljs-string">&quot;o colaborador n&#xE3;o existe&quot;</span>
 }
 </code></pre>
 <hr>
@@ -432,7 +458,7 @@ $.ajax(settings).done(<span class="hljs-function"><span class="hljs-keyword">fun
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Visualizar colaborador","level":"1.2.2","depth":2,"next":{"title":"Creditar pontos a um colaborador","level":"1.2.3","depth":2,"path":"colaboradores/creditar-pontos.md","ref":"colaboradores/creditar-pontos.md","articles":[]},"previous":{"title":"Visualizar colaboradores","level":"1.2.1","depth":2,"path":"colaboradores/visualizar-colaboradores.md","ref":"colaboradores/visualizar-colaboradores.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"colaboradores/visualizar-colaborador.md","mtime":"2017-05-04T16:34:15.952Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-23T16:16:26.249Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Visualizar colaborador","level":"1.2.4","depth":2,"next":{"title":"Creditar pontos a um colaborador","level":"1.2.5","depth":2,"path":"colaboradores/creditar-pontos.md","ref":"colaboradores/creditar-pontos.md","articles":[]},"previous":{"title":"Visualizar colaboradores","level":"1.2.3","depth":2,"path":"colaboradores/visualizar-colaboradores.md","ref":"colaboradores/visualizar-colaboradores.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"colaboradores/visualizar-colaborador.md","mtime":"2017-07-24T19:30:11.353Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-24T18:09:48.124Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

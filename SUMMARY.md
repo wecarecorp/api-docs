@@ -2,6 +2,8 @@
 
 * [Autenticação](README.md)
 * Colaboradores
+  * [Criar colaborador](colaboradores/criar-colaborador.md)
+  * [Atualizar senha](colaboradores/atualizar-senha.md)
   * [Visualizar colaboradores](colaboradores/visualizar-colaboradores.md)
   * [Visualizar colaborador](colaboradores/visualizar-colaborador.md)
   * [Creditar pontos a um colaborador](colaboradores/creditar-pontos.md)

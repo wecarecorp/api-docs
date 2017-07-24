@@ -9,7 +9,7 @@
 
 |Parâmetro|Descrição|
 |:--------|:--------|
-|id <span style="color: rgba(0, 0, 0, 0.54)">(inteiro, obrigátório)</span>|Identificador do colaborador|
+|id <span style="color: rgba(0, 0, 0, 0.54)">(string, obrigatório)</span>|Identificador do colaborador, email ou login alternativo|
 
 <br>
 **Cabeçalhos:**
@@ -25,8 +25,8 @@
 ```json
 {
   "transaction": {
-    "points": quantidade_de_pontos (inteiro),
-    "message": mensagem_de_feedback (string)
+    "points": quantidade de pontos (inteiro),
+    "message": mensagem de feedback (string, opcional)
   }
 }
 ```
@@ -87,7 +87,7 @@
 
 ```json
 {
-  "erro": "Não existe colaborador com este id"
+  "erro": "o colaborador não existe"
 }
 ```
 

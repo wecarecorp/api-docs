@@ -9,7 +9,7 @@
 
 |Parâmetro|Descrição|
 |:--------|:--------|
-|id <span style="color: rgba(0, 0, 0, 0.54)">(inteiro, obrigátório)</span>|Identificador do colaborador|
+|id <span style="color: rgba(0, 0, 0, 0.54)">(string, obrigatório)</span>|Identificador do colaborador, email ou login alternativo|
 
 <br>
 **Cabeçalhos:**
@@ -74,7 +74,7 @@
 
 ---
 
-**Resposta mal sucedida:** creditar pontos a um colaborador que não existe
+**Resposta mal sucedida:** solicitar recompensa a um colaborador que não existe
 
 **Código:** 404 Not Found
 
@@ -82,13 +82,13 @@
 
 ```json
 {
-  "erro": "Não existe colaborador com este id"
+  "erro": "o colaborador não existe"
 }
 ```
 
 ---
 
-**Resposta mal sucedida:** creditar pontos a um colaborador que não seja da sua empresa
+**Resposta mal sucedida:** solicitar recompensa a um colaborador que não seja da sua empresa
 
 **Código:** 403 Forbidden
 

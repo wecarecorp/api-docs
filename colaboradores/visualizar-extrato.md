@@ -9,7 +9,7 @@
 
 |Parâmetro|Valores aceitos|Descrição|
 |:--------|:----|:--------|
-|id <span style="color: rgba(0, 0, 0, 0.54)">(inteiro, obrigatório)</span> |Qualquer inteiro|Identificador do colaborador|
+|id <span style="color: rgba(0, 0, 0, 0.54)">(string, obrigatório)</span> |Qualquer string|Id do colaborador, email, login alternativo|
 |month <span style="color: rgba(0, 0, 0, 0.54)">(inteiro, optativo)</span>|1-12|Mês das transações|
 |order_by <span style="color: rgba(0, 0, 0, 0.54)">(string, optativo)</span>|created_by|Ordena resultados por data de criação|
 |reverse <span style="color: rgba(0, 0, 0, 0.54)">(boolean, optativo)</span>|true, false|Reverte um resultado ordenado|
@@ -68,7 +68,7 @@
 
 ```json
 {
-  "erro": "Não existe colaborador com este id"
+  "erro": "o colaborador não existe"
 }
 ```
 
